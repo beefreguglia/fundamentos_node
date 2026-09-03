@@ -1,4 +1,4 @@
-//math.mjs - exportado com ES Modules
+//math.mjs - exportado com ES Modules - Assincrono
 // Named exports (exportações nomeadas)
 export function soma(a, b) {
   return a + b
