@@ -28,3 +28,6 @@ db.prepare("INSERT INTO products (name, price) VALUES (?, ?)").run("Product 1", 
 db.prepare("SELECT * FROM products").all().forEach((product) => {
   console.log(`ID: ${product.id}, Name: ${product.name}, Price:${product.price}`)
 })
+
+console.log(process.env.MINHA_VARIAVEL)
+console.log(process.env.OUTRA_VARIAVEL)
